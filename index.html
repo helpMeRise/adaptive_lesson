@@ -5,27 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Black.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Bold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Medium.woff" as="font" type="font/woff" crossorigin>
+
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
 
   <section class="hero">
-    <div class="container">
+    <div class="container hero__container">
       <header class="header hero__header">
         <img src="image/Logo.svg" alt="Логотип" class="header__logo">
 
         <div class="contacts header__contacts">
           <a href="tel:+79625561234" class="contacts__phone header__phone">+7 (962) 556 - 1234</a>
           <a href="#" class="contacts__link header__link">Перезвоните мне</a>
+
+          <a href="#" class="contacts__phone_mobile"></a>
         </div>
       </header>
 
-      <section class="section">
+      <div class="hero__content">
         <h1 class="hero__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
         <p class="hero__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+        
+        <p class="hero__text_mobile">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более.</p>
+        
         <button class="button hero__button">Подробнее</button>
-      </section>
+      </div>
       
     </div>
   </section>

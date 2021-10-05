@@ -1,0 +1,174 @@
+.hero {
+  padding: 40px 0px 120px;
+  background: url('../image/header/Background.jpg') center / cover no-repeat;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__phone {
+  font-weight: normal;
+  font-size: 23.85px;
+  line-height: 28px;
+  margin-bottom: 3px;
+}
+
+.contacts__phone_mobile {
+  display: none;
+}
+
+.contacts__link {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.hero__content {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.86);
+  margin-bottom: 35px;
+}
+
+.hero__text {
+  max-width: 960px;
+  margin: 0 auto; 
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 90px;
+}
+
+.hero__text_mobile {
+  display: none;
+}
+
+.hero__button {
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 12px 48px;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 26px 0px 70px;
+  }
+
+  .header {
+    margin-bottom: 70px;
+  }
+
+  .contacts__phone {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .contacts__link {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .hero__content {
+    max-width: 780px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 27px;
+  }
+
+  .hero__text {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 754px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .hero__text {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 15px 0px 65px;
+    background-position: left;
+  }
+
+  .header {
+    margin-bottom: 65px;
+  }
+
+  .header__logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contacts__phone, 
+  .contacts__link {
+    display: none;
+  }
+
+  .contacts__phone_mobile {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('../image/header/Phone.svg')
+  }
+
+  .hero__content {
+    max-width: 290px;
+  }
+
+  .hero__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 23px;
+  }
+
+  .hero__text {
+    display: none;
+  }
+
+  .hero__text_mobile {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 54px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
