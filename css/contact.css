@@ -1,0 +1,152 @@
+.contact {
+  background: url('../image/question/Background.jpg') center / cover no-repeat;
+  color: #fff;
+}
+
+.contact__title {
+  margin-bottom: 17px;
+}
+
+.contact__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  border: 1.38235px solid #FFFFFF;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 9px 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.form__input-wrap {
+  width: 423px;
+}
+
+.form__input-wrap:not(:last-of-type) {
+  margin-bottom: 21px;
+}
+
+.form__input-wrap:last-of-type {
+  margin-bottom: 50px;
+}
+
+.contact__button {
+  padding: 11px 38px;
+  margin-bottom: 50px;
+}
+
+.contact__policy {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.contact__link {
+  color: #4A76A8;
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding-bottom: 56px;
+  }
+
+  .contact__title {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 16px;
+  }
+
+  .contact__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .form__input-wrap {
+    width: 379px;
+  }
+
+  .input {
+    width: 100%;
+    border: 1.38235px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 8px 23px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact__button {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+
+  .contact__policy {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact__title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .contact__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding-bottom: 30px;
+  }
+
+  .contact__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .contact__subtitle {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 35px;
+  }
+
+  .form__input-wrap {
+    width: 290px;
+  }
+
+  .input {
+    padding: 6px 18px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .contact__button {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+
+  .contact__policy {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
