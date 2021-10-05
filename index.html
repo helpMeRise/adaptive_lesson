@@ -45,7 +45,7 @@
   </section>
 
   <section class="section advantages">
-    <div class="container">
+    <div class="container advantages__container">
       <h2 class="section__title advantages__title">Уникальный заголовок для преимущества компании</h2>
       <p class="advantages__subtitle">О нас</p>
 
@@ -53,22 +53,51 @@
 
       <ul class="advantages__list">
         <li class="advantages__item">
-          <div class="advantages__number"></div>
+          <span class="advantages__number">1</span>
           <p class="advantages__info">Первое целевое преимущество</p>
         </li>
         <li class="advantages__item">
-          <div class="advantages__number"></div>
+          <span class="advantages__number">2</span>
           <p class="advantages__info">Второе целевое преимущество</p>
         </li>
         <li class="advantages__item">
-          <div class="advantages__number"></div>
+          <span class="advantages__number">3</span>
           <p class="advantages__info">Третье целевое преимущество</p>
         </li>
         <li class="advantages__item">
-          <div class="advantages__number"></div>
+          <span class="advantages__number">4</span>
           <p class="advantages__info">Четвертое целевое преимущество</p>
         </li>
       </ul>
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <span class="advantages__number">1</span>
+            <p class="advantages__info">Первое целевое преимущество</p>
+          </div>
+
+          <div class="swiper-slide">
+            <span class="advantages__number">2</span>
+            <p class="advantages__info">Второе целевое преимущество</p>
+          </div>
+
+          <div class="swiper-slide">
+            <span class="advantages__number">3</span>
+            <p class="advantages__info">Третье целевое преимущество</p>
+          </div>
+
+          <div class="swiper-slide">
+            <span class="advantages__number">4</span>
+            <p class="advantages__info">Четвертое целевое преимущество</p>
+          </div>
+        </div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </div>
   </section>
 
@@ -116,6 +145,19 @@
       </div>
     </div>
   </footer>
+
+  <script src="swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 1,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+  </script>
   
 </body>
 </html>
