@@ -22,7 +22,7 @@
   line-height: 61px;
   text-align: center;
   color: rgba(255, 255, 255, 0.86);
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .hero__text {
@@ -55,6 +55,11 @@
 
   .header {
     margin-bottom: 70px;
+  }
+
+  .header__logo {
+    width: 60px;
+    height: 60px;
   }
 
   .hero__content {
@@ -90,12 +95,12 @@
 
 @media (max-width: 480px) {
   .hero {
-    padding: 15px 0px 65px;
+    padding: 15px 0px 66px;
     background-position: left;
   }
 
   .header {
-    margin-bottom: 65px;
+    margin-bottom: 66px;
   }
 
   .header__logo {
@@ -110,7 +115,7 @@
   .hero__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
   }
 
   .hero__text {
@@ -121,8 +126,14 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 54px;
+    margin-bottom: 53px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
+  }
+
+  .hero__button {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 9px 38px;
   }
 }

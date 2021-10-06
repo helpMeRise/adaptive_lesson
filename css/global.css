@@ -77,7 +77,7 @@ iframe {
 }
 
 .section {
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
 .container {
@@ -110,7 +110,7 @@ iframe {
 .contacts__phone {
   font-weight: normal;
   font-size: 23.85px;
-  line-height: 28px;
+  line-height: 29px;
   margin-bottom: 3px;
 }
 
@@ -127,6 +127,7 @@ iframe {
 
 @media (max-width: 1024px) {
   .container {
+    max-width: 994px;
     padding: 0 15px;
   }
 
@@ -137,12 +138,13 @@ iframe {
 
   .contacts__link {
     font-size: 13px;
-    line-height: 15px;
+    line-height: 19px;
   }
 }
 @media (max-width: 480px) {
   .container {
-    padding: 0 5px;
+    padding: 0;
+    max-width: 290px;
   }
 
   .contacts__phone, 

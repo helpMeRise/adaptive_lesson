@@ -39,6 +39,12 @@
 }
 
 @media (max-width: 1024px) {
+
+  .footer {
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+
   .footer__logo {
     width: 60px;
     height: 60px;
@@ -46,6 +52,7 @@
 
   .footer__creator {
     opacity: .5;
+    margin-left: -29px;
   }
 }
 

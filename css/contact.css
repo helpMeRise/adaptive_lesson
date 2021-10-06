@@ -1,10 +1,12 @@
 .contact {
+  padding-top: 72px;
   background: url('../image/question/Background.jpg') center / cover no-repeat;
   color: #fff;
 }
 
 .contact__title {
-  margin-bottom: 17px;
+  margin-bottom: 18px;
+  margin-left: -20px;
 }
 
 .contact__subtitle {
@@ -36,7 +38,7 @@
 }
 
 .form__input-wrap:not(:last-of-type) {
-  margin-bottom: 21px;
+  margin-bottom: 19px;
 }
 
 .form__input-wrap:last-of-type {
@@ -44,8 +46,9 @@
 }
 
 .contact__button {
-  padding: 11px 38px;
-  margin-bottom: 50px;
+  padding: 12px 38px;
+  margin-bottom: 52px;
+  font-size: 20px;
 }
 
 .contact__policy {
@@ -60,22 +63,29 @@
 
 @media (max-width: 1024px) {
   .contact {
-    padding-bottom: 56px;
+    padding-bottom: 58px;
   }
 
   .contact__title {
     font-size: 32px;
     line-height: 37px;
     margin-bottom: 16px;
+    margin-left: -9px;
   }
 
   .contact__subtitle {
     font-size: 20px;
     line-height: 23px;
+    margin-left: 15px;
+    margin-bottom: 45px;
   }
 
   .form__input-wrap {
     width: 379px;
+  }
+
+  .form__input-wrap:last-of-type {
+    margin-bottom: 47px;
   }
 
   .input {
@@ -114,23 +124,33 @@
 
 @media (max-width: 480px) {
   .contact {
-    padding-bottom: 30px;
+    padding-bottom: 28px;
+    padding-top: 30px;
   }
 
   .contact__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .contact__subtitle {
     font-size: 12px;
     line-height: 14px;
     margin-bottom: 35px;
+    margin-left: 0;
   }
 
   .form__input-wrap {
     width: 290px;
+  }
+
+  .form__input-wrap:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  .form__input-wrap:last-of-type {
+    margin-bottom: 44px;
   }
 
   .input {
@@ -140,13 +160,14 @@
   }
 
   .contact__button {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 16px;
+    line-height: 19px;
     margin-bottom: 30px;
+    padding: 10px 30px;
   }
 
   .contact__policy {
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 11px;
+    line-height: 13px;
   }
 }
